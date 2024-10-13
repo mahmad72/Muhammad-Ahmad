@@ -12,11 +12,6 @@ body {
     padding: 3% 10%;
     
 }
-@media (max-width: 991.20px) and (min-width: 500px) {
-    .navbar-nav {
-        margin-top: 50px;
-    }
-}
 a.navbar-brand {
     display: inherit;
     width: 80%;
@@ -61,4 +56,13 @@ hr {
 }
 .heading-1 {
     color: #F4CE14;
+}
+
+@media (max-width: 991.20px) and (min-width: 500px) {
+    .navbar-nav {
+        margin-top: 50px;
+    }
+    .nav-item {
+        margin: 5px 20px;
+    }
 }
