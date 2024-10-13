@@ -1,0 +1,64 @@
+.doc-icon {
+    border-radius: 100%;
+    width: 120%;
+}
+body {
+    margin: 0;
+}
+/* navigation bar Section */
+
+.container-fluid {
+    background-color: #F5F7F8;
+    padding: 3% 10%;
+    
+}
+@media (max-width: 991.20px) and (min-width: 500px) {
+    .navbar-nav {
+        margin-top: 50px;
+    }
+}
+a.navbar-brand {
+    display: inherit;
+    width: 80%;
+}
+.brand-logo {
+    border-radius: 100%;
+    width: 20%;
+}
+.navbar-nav {
+    background-color: yellow;
+    border-radius: 40px;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.nav-item {
+    margin: 0 20px;
+}
+.nav-link {
+    user-select: none;
+    text-align: center;
+    padding: 5px 30px;
+    border-radius: 40px;
+    color: darkblue;
+}
+.nav-link:hover {
+    cursor: pointer;
+    background-color: darkblue;
+    color: #F5F7F8;
+}
+
+/* Nav horizantal Bar Section */
+hr {
+    color: #F4CE14;
+    border-width: 2px;
+}
+
+/*// Navigation Bar Section // */
+#intro-section {
+    margin-top: 15%;
+    text-align: center;
+}
+.heading-1 {
+    color: #F4CE14;
+}
