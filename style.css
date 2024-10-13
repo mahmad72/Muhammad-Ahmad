@@ -1,24 +1,86 @@
-.doc-icon {
-    border-radius: 100%;
-    width: 120%;
-}
 body {
     margin: 0;
+    font-family: "Monda", sans-serif;
 }
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 /* navigation bar Section */
 
 .container-fluid {
     background-color: #F5F7F8;
-    padding: 3% 10%;
-    
+    padding: 3% 5%;
 }
-a.navbar-brand {
-    display: inherit;
+.navbar-brand {
     width: 80%;
-}
-.brand-logo {
-    border-radius: 100%;
-    width: 20%;
 }
 .navbar-nav {
     background-color: yellow;
@@ -50,18 +112,33 @@ hr {
 }
 
 /*// Navigation Bar Section // */
-#intro-section {
+#title-section {
     margin-top: 15%;
     text-align: center;
 }
 .heading-1 {
-    color: #F4CE14;
+    font-weight: 700;
+    color: darkblue;
+    margin: 20px;
+}
+h3.roboto-light {
+    font-size: 22px;
+}
+.margin-top-50px {
+    margin-top: 50px;
+}
+
+@media (max-width: 1400px) and (min-width: 991.20px) {
+    .logo {
+        width: 20%;
+        border-radius: 100%;
+    }
 }
 
 @media (max-width: 991.20px) and (min-width: 500px) {
-    .navbar-brand {
-        display: inherit;
-        width: 60%;
+    .logo {
+        width: 20%;
+        border-radius: 100%;
     }
     .navbar-nav {
         margin-top: 50px;
